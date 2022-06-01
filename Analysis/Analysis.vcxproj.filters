@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="シェーダーファイル">
+      <UniqueIdentifier>{c4b63bef-c4b4-40dd-8ebf-3f9cdc0f8557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲームシステム">
+      <UniqueIdentifier>{0effebc6-bde2-41c3-abf2-9ff8e71ffaa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム">
+      <UniqueIdentifier>{02085d77-f2ce-451c-9e0e-1cea092e391b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Audio">
+      <UniqueIdentifier>{d50b3b7c-f0ed-427f-ae1c-45dc69a89fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\3dObject">
+      <UniqueIdentifier>{b694fa11-2cbf-4662-a377-b3f2ecae0412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\2dObject">
+      <UniqueIdentifier>{d1b2616a-7617-475b-9481-78aa38115a72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\LoadFile">
+      <UniqueIdentifier>{48d9b79b-9f31-4836-839c-8855416b353e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\MainSystem">
+      <UniqueIdentifier>{67675b7e-5f68-4193-8d4f-1cc9fe252ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\2dObject\DebugText">
+      <UniqueIdentifier>{8a8a8b89-b332-4ad1-a027-0e71cd3d792f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\MainSystem\Input">
+      <UniqueIdentifier>{c9ef2e81-bfcf-41ca-b3c8-821026159bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\MainSystem\DirectXCommon">
+      <UniqueIdentifier>{c4924800-ddb9-4297-b120-7d63cc5ccb07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\MainSystem\WindowApp">
+      <UniqueIdentifier>{c8b9b141-feab-43bc-9dc3-65df95c04218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シェーダーファイル\Sprite">
+      <UniqueIdentifier>{c79de487-cd11-4978-a7f8-3162e4c4f1d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シェーダーファイル\Basic">
+      <UniqueIdentifier>{110cc445-8ccf-4738-abfc-f7275b52f11a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シェーダーファイル\Obj">
+      <UniqueIdentifier>{47c0745e-d963-4c4e-a611-83305efb37e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シェーダーファイル\Particle">
+      <UniqueIdentifier>{50e7d2ef-5d76-4f6d-8d0c-5c54df89cb0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Collision">
+      <UniqueIdentifier>{a9370561-f62c-4d18-8a96-73d121a88f40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲームシステム\Easing">
+      <UniqueIdentifier>{dcc10f48-e82b-48b9-b179-b571095ffe54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="エンジンシステム\Camera">
+      <UniqueIdentifier>{712cc4e0-95cb-4715-b30f-3af55e4b2ffd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Audio.cpp">
+      <Filter>エンジンシステム\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ゲームシステム</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem.cpp">
+      <Filter>ゲームシステム</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>エンジンシステム\2dObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>エンジンシステム\LoadFile</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>エンジンシステム\MainSystem\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugText.cpp">
+      <Filter>エンジンシステム\2dObject\DebugText</Filter>
+    </ClCompile>
+    <ClCompile Include="Object3d.cpp">
+      <Filter>エンジンシステム\3dObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXCommon.cpp">
+      <Filter>エンジンシステム\MainSystem\DirectXCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowApp.cpp">
+      <Filter>エンジンシステム\MainSystem\WindowApp</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionPrimitive.cpp">
+      <Filter>エンジンシステム\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>エンジンシステム\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionInfo.cpp">
+      <Filter>エンジンシステム\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Easing.cpp">
+      <Filter>ゲームシステム\Easing</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>エンジンシステム\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereCollider.cpp">
+      <Filter>エンジンシステム\Collision</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resources\Shaders\BasicPS.hlsl">
+      <Filter>シェーダーファイル\Basic</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\BasicVS.hlsl">
+      <Filter>シェーダーファイル\Basic</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\SpriteVS.hlsl">
+      <Filter>シェーダーファイル\Sprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\SpritePS.hlsl">
+      <Filter>シェーダーファイル\Sprite</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\ObjVS.hlsl">
+      <Filter>シェーダーファイル\Obj</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\ObjPS.hlsl">
+      <Filter>シェーダーファイル\Obj</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\ParticleGS.hlsl">
+      <Filter>シェーダーファイル\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\ParticlePS.hlsl">
+      <Filter>シェーダーファイル\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\ParticleVS.hlsl">
+      <Filter>シェーダーファイル\Particle</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shaders\BasicShaderHeader.hlsli">
+      <Filter>シェーダーファイル\Basic</Filter>
+    </None>
+    <None Include="Resources\Shaders\Sprite.hlsli">
+      <Filter>シェーダーファイル\Sprite</Filter>
+    </None>
+    <None Include="Resources\Shaders\Obj.hlsli">
+      <Filter>シェーダーファイル\Obj</Filter>
+    </None>
+    <None Include="Resources\Shaders\Particle.hlsli">
+      <Filter>シェーダーファイル\Particle</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Audio.h">
+      <Filter>エンジンシステム\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem.h">
+      <Filter>ゲームシステム</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>エンジンシステム\2dObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>エンジンシステム\LoadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>エンジンシステム\MainSystem\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugText.h">
+      <Filter>エンジンシステム\2dObject\DebugText</Filter>
+    </ClInclude>
+    <ClInclude Include="Object3d.h">
+      <Filter>エンジンシステム\3dObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXCommon.h">
+      <Filter>エンジンシステム\MainSystem\DirectXCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowApp.h">
+      <Filter>エンジンシステム\MainSystem\WindowApp</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionInfo.h">
+      <Filter>エンジンシステム\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionPrimitive.h">
+      <Filter>エンジンシステム\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionTypes.h">
+      <Filter>エンジンシステム\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCollider.h">
+      <Filter>エンジンシステム\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>エンジンシステム\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Easing.h">
+      <Filter>ゲームシステム\Easing</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>エンジンシステム\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCollider.h">
+      <Filter>エンジンシステム\Collision</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
