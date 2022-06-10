@@ -840,7 +840,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 	//ボスが生きているか
 	bool isBossAlive = false;
 
-	const int bossHPMax = 500;//ボスの最大HP
+	const int bossHPMax = 400;//ボスの最大HP
 	int bossHP = bossHPMax;//ボスのHP
 	const float bossHPGaugeSizeXMax = 694.0f;//ボスのHP用ゲージの大きさMAX
 	float bossHPGaugeSizeX = bossHPGaugeSizeXMax;//ボスのHP用ゲージの大きさ 
